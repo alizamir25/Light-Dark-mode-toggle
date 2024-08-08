@@ -9,16 +9,13 @@ body {
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
 }
-
 .dark-mode {
     background-color: #312d2d;
     color: #f0f0f0;
 }
-
 .dark-mode .content {
     color: #f0f0f0;
 }
-
 .dark-mode-container {
     position: fixed;
     bottom: 20px;
@@ -27,7 +24,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .dark-mode-toggler {
     width: 80px;
     height: 40px;
@@ -42,37 +38,30 @@ body {
     padding: 5px;
     transition: background 0.3s ease, box-shadow 0.3s ease;
 }
-
 .dark-mode-toggler .sun-icon,
 .dark-mode-toggler .moon-icon {
     color: #fff;
     font-size: 18px;
 }
-
 .dark-mode-toggler .moon-icon {
     position: absolute;
     left: 10px;
     transition: opacity 0.3s ease;
 }
-
 .dark-mode-toggler .sun-icon {
     position: absolute;
     right: 10px;
     transition: opacity 0.3s ease;
 }
-
 .dark-mode .dark-mode-toggler {
     background: linear-gradient(135deg, #1e1e1e, #4a4a4a); 
 }
-
 .dark-mode .dark-mode-toggler .moon-icon {
     opacity: 1;
 }
-
 .dark-mode .dark-mode-toggler .sun-icon {
     opacity: 0;
 }
-
 .dark-mode-toggler .toggle-circle {
     width: 32px;
     height: 32px;
@@ -84,18 +73,15 @@ body {
     transform: translateY(-50%);
     transition: transform 0.3s ease, background 0.3s ease;
 }
-
 .dark-mode .dark-mode-toggler .toggle-circle {
     transform: translateY(-50%) translateX(40px);
     background: #f0f0f0;
 }
-
 .content {
     text-align: center;
     max-width: 600px;
     padding: 20px;
 }
-
 h1 {
     font-size: 4rem; /* Larger text size */
     margin: 0;
@@ -105,12 +91,10 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
     transition: color 0.3s ease, transform 0.3s ease;
 }
-
 .dark-mode h1 {
     color: #e0e0e0; 
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); 
 }
-
 h1:hover {
     color: #1768ff; 
     transform: scale(1.05); 
