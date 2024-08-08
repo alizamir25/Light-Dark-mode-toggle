@@ -31,7 +31,7 @@ body {
 .dark-mode-toggler {
     width: 80px;
     height: 40px;
-    background: linear-gradient(135deg, #f5f252, #f4bb00); /* Day Mode Colors */
+    background: linear-gradient(135deg, #f5f252, #f4bb00); 
     border-radius: 20px;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -62,7 +62,7 @@ body {
 }
 
 .dark-mode .dark-mode-toggler {
-    background: linear-gradient(135deg, #1e1e1e, #4a4a4a); /* Night Mode Colors */
+    background: linear-gradient(135deg, #1e1e1e, #4a4a4a); 
 }
 
 .dark-mode .dark-mode-toggler .moon-icon {
@@ -102,16 +102,16 @@ h1 {
     position: relative;
     display: inline-block;
     color: inherit;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .dark-mode h1 {
-    color: #e0e0e0; /* Light color for dark mode */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); /* Darker text shadow for dark mode */
+    color: #e0e0e0; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); 
 }
 
 h1:hover {
-    color: #1768ff; /* Highlight color on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    color: #1768ff; 
+    transform: scale(1.05); 
 }
